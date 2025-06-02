@@ -9,6 +9,8 @@ import numpy as np
 import os
 from io import BytesIO
 
+os.environ["YOLO_CONFIG_DIR"] = "/tmp"
+
 app = FastAPI()
 
 # Load YOLO model
